@@ -1,0 +1,9 @@
+Install:
+	make
+
+Test:
+	./parser fibonacci.min > fibonacci.mil
+	./mil_run fibonacci.mil < input.txt
+
+	./parser primes.min > primes.mil
+	./mil_run primes.mil < input.txt
